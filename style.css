@@ -1,0 +1,320 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    position: relative;
+}
+h3{
+    cursor: pointer;
+}
+.color{
+    color: white;
+    font-size: 2.5rem;
+    font-family: poppins,sans-serif;
+    position: relative;
+    top: 17rem;
+    width: 50rem;
+    height: 31rem;
+    background: linear-gradient(to top,#BA4EFF,#FAAFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.brand{
+    height: max-content;
+    font-family: poppins,sans-serif;
+    position: relative;
+    left: 9rem;
+    font-size: 1rem;
+}
+.nav-bar{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+    background-color: #010101;
+    color: #ffff;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: poppins,sans-serif;
+    font-size: 13px;
+}
+a:hover{
+    color: #147CE5;
+}
+.nav-btn{
+    position: absolute;
+    right: 149px;
+    bottom: 21px;
+}
+.nav-btn button{
+    color: white;
+    background-color: #147CE5;
+    border: none;
+    padding: 4px 9px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+button:hover{
+    background-color: #ffff;
+    color: #010101;
+}
+.nav-items{
+    position: absolute;
+    right: 13rem;
+    bottom: 1.5rem;
+}
+.bar{
+    width: 80%;
+    height: 0px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.424);
+    top: 61px;
+    left: 40px;
+}
+                           /* -----nav bar end---- */
+.cantanier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300vh;
+    align-items: center;
+    background: black;
+}
+.pho-img{
+    position: relative;
+    top: 21rem;
+    margin-top: 50px;
+    height: 150vh;
+    width: 150vh;
+}
+.iphone{
+    position: absolute;
+    top: 5rem;
+    font-size: 11.3rem;
+    font-weight: 600;
+    letter-spacing: -4px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right,#2FA1B7,#7B89FC,#ED4150);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#page-2{
+    height: 300vh;
+    background: linear-gradient(to bottom,#010101,#010101,#220D5F,#CD5CDF,#FCBFF7,#FCBFF7,#CD5CDF,#220D5F,#010101);
+    position: relative;
+}
+.text{
+    font-family: poppins,sans-serif;
+    font-size: 11.3rem;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.beyond{
+    position: relative;
+    bottom: 50px;
+}
+.line-2{
+    font-family: poppins,sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    color: black;
+    left: 20%;
+    top: 57%;
+}
+.line-2-br{
+    font-size: 1.4rem;
+}
+.film{
+    font-family: poppins,sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 20%;
+    top: 64%;
+    cursor: pointer;
+}
+.event{
+    font-family: poppins,sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 40%;
+    top: 64%;
+    cursor: pointer;
+}
+
+.film:hover,.event:hover{
+    text-decoration: underline;
+}
+#page-3{
+    height: 200vh;
+    background: #010101;
+    position: relative;
+}
+.brilliat{
+    position: absolute;
+    color: #CECECE;
+    font-family: poppins,sans-serif;
+    left: 25.5%;
+    top: 12%;
+    font-size: 2.3rem;
+}  
+.brilliant{
+    position: absolute;
+    left: 25%;
+    top: 11%;
+    font-size: 11rem;
+    font-weight: 600;
+    letter-spacing: -4px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top,#E46904,#FFF190);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
+.img-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-3 img{
+    position: absolute;
+    height: 40%;
+    width: 95%;
+    bottom: 13rem;
+    right: ;
+
+}
+.page-4{
+    height: 200vh;
+    background: #010101;
+}
+
+.side-img{
+    width: 15.5rem;
+    position: relative;
+    right: 10rem;
+}
+.para-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.para{
+    font-family: poppins,sans-serif;
+    color: #CECECE;
+    font-size: 1.5rem;
+}
+.side-para{
+    width: 15rem;
+    position: absolute;
+    right: 25rem;
+}
+@media only screen and (max-width:700px){
+    .nav-items{
+        display: none;
+    }
+    .nav-bar{
+        width: 100%;
+    }
+    h3{
+        position: relative;
+        margin-left: 2rem;
+    }
+    .nav-btn{
+        position: absolute;
+        right: 2rem;
+    }
+    .cantanier{
+        width: 100%;
+    }
+    .pho-img{
+        position: relative;
+        width: 90%;
+        height: 20%;
+        top: 5rem;
+    }
+    .cantanier h1{
+        font-size: 5rem;
+        justify-content: center;
+        position: absolute;
+        top:19rem;
+    }
+    #page-2 h1{
+        width: 100%;
+        font-size: 5rem;
+    }
+    .cantanier h2{
+        font-size: 25px;
+        width: 380px;
+        height: 300px;
+
+    }
+    .brilliant{
+        font-size: 6rem;
+        position: absolute;
+        left: 2rem;
+        top: 27rem;
+    }
+    .brilliat{
+        font-size: 1.5rem;
+        position: absolute;
+        top: 27rem;
+        left: 2rem;
+    }
+    .text{
+        margin-right: 100px;
+        position: absolute;
+        left: 0;
+        top: 70rem;
+    }
+    .line-2{
+        font-size: 20px;
+        position: absolute;
+        left: 10px;
+        margin-bottom: 10px;
+    }
+    .bar{
+        position: absolute;
+        right: 5rem;
+    }
+    .film{
+        font-size: 2rem;
+    }
+    .event{
+        font-size: 2rem;
+        position: absolute;
+        top: 105rem;
+        left: 4rem;
+    }
+    .img-3 img{
+        width: 90%;
+        height: 20%;
+        bottom: 44rem;
+    }
+    .side-img{
+        width: 10rem;
+        height: 45rem;
+        position: absolute;
+        left: 1rem;
+    }
+    .para{
+        font-size: 1rem;
+        position: absolute;
+        width: 170px;
+        left: 25rem;
+        bottom: -24rem;
+        height: 500px;
+    }
+}
